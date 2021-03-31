@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Board from './Board';
-import { Button } from '@material-ui/core';
+//import { Button } from '@material-ui/core';
 
 export default class Game extends Component {
     constructor(props) {
@@ -44,16 +44,16 @@ export default class Game extends Component {
             const desc = move? 'Go to #' + move:'Start the Game';
             return (
                 <li key={move}>
-                    <Button variant="contained" color="primary" onClick={()=>{this.jumpTo(move)}}>
+                    <button color="primary" onClick={()=>{this.jumpTo(move)}}>
                         {desc}
-                    </Button>
+                    </button>
                 </li>
             )
         });
         let status;
         if(winner){
             status = 'Winner is ' + winner;
-        } else if((!winner) && (this.state.stepNumber == 8)){
+        } else if((!winner) && (this.state.stepNumber == 9)){
             status = 'Game over. Winner: No one.';
         } else{
             status = 'Next Player is ' + (this.state.xIsNext?'X':'O');

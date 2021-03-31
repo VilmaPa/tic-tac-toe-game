@@ -32,9 +32,10 @@
 ul {
   padding-left: 30px;
 }
+li {
+  padding: 0;
+  margin: 0px;
+}
 .game-info {
   margin-left: 20px;
-}
-.status {
-  margin-bottom: 10px;
 }
