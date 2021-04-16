@@ -2,6 +2,8 @@
 
 This was coding project in React.
 
+[Visualization](username.github.com/tic-tac-toe-game/img/tictactoe.jpg)
+
 ## The goal of this project
 
 * .Game version React base
