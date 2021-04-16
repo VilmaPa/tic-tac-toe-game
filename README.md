@@ -2,7 +2,7 @@
 
 This was coding project in React.
 
-[Visualization](username.github.com/tic-tac-toe-game/img/tictactoe.jpg)
+[Visualization](VilmaPa.github.com/tic-tac-toe-game/img/tictactoe.jpg)
 
 ## The goal of this project
 
