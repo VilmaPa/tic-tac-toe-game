@@ -3,6 +3,7 @@
 This was coding project in React.
 
 [Visualization](VilmaPa.github.com/tic-tac-toe-game/img/tictactoe.jpg)
+[![solarized dualmode](https://github.com/VilmaPa/tic-tac-toe-game/raw/master/img/tictactoe.jpg)](#features)
 
 ## The goal of this project
 
